@@ -4,4 +4,5 @@ class Student < ApplicationRecord
     "#{first_name} #{last_name}"
   end
 
+  validates :grade, presence: true
 end
